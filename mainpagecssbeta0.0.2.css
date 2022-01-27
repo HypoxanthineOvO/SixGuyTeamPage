@@ -1,0 +1,50 @@
+.HEAD{
+
+    display:block;
+    width: 80%;
+
+    border-bottom:5px solid rgb(30, 42, 80);
+
+    font-size: 3.2em;
+    font-family: "华文黑体";
+    font-weight:700;
+}
+
+body{
+    background-color: #DCE2F1 ;
+
+    font-family: "华文中宋","宋体";
+}
+
+
+table{
+    width:90%;
+    table-layout:fixed; 
+}
+
+aside{
+    position:fixed;
+    width:200px;
+    top:0;
+    bottom:0;
+}
+
+
+#HeadPicture{
+    border-radius:15px ;
+    height: 6em;
+}
+
+.Everyone{
+    text-align: center;
+    margin: 10px;
+}
+
+.function{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+

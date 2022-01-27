@@ -3,43 +3,75 @@
 <head>
     <meta charset = "utf-8" />
     <title>
-        六人小分队主页
+        六人小分队 - 主页
     </title>
     <link rel="icon" href="憨睿图标.ico" type="image/x-icon" /> 
-    <link rel="stylesheet" href="主页样式表.css" />
+    <link rel="stylesheet" href="mainpagecssbeta0.0.2.css" />
 </head>
-
+<center>
 <body>
     <header>
-        <h1>这里是六人小分队！</h1>
-        <img id = "群头像" src="XFDTB.jpg"></img>
+        <table class="HEAD">
+        <tr>
+            <th><h1 id="MainIntro" >这里是六人小分队！</h1></th>
+            <th><img id = "HeadPicture"  src="XFDTB.jpg"></img></th>
+        </tr>    
+        </table>
+        
     </header>
-    <main role="main">
-        <div class="HYX">
-        <h2 title="贺狗">HYX</h2>   
-        </div>
-        <div class="HYX">
-            <h2 title="点J切空间">TRJ</h2>   
-        </div>       
-        <div class="HYX">
-            <h2 title="憨批李子涵">LZH</h2>   
-        </div>       
-        <div class="HYX">
-            <h2 title="傻逼刘宏睿">LHR</h2>   
-        </div>
-        <div class="HYX">
-            <h2 title="霍梓林巨巨巨">HZL</h2>   
-        </div>
-        <div class="HYX">
-            <h2 title="色马天天潜水">MY</h2>   
-        </div>
+    <main> 
+        <table class = "Everyone">
+            <tr>
+                <td><h2 title="贺狗">
+                <a href="Hypoxanthine/HYX.html">贺云翔</a></h2>
+                <p>上海科技大学 计算机科学与技术</p></td>
+               
+                <td><h2 title="点J切空间">                
+                        <p><strong>童瑞骏</strong></p></h2> 
+                        <p>华中科技大学 人工智能</p></td>       
+
+                <td><h2 title="梨子憨">
+                        <p><strong>李子涵</strong></p></h2>
+                        <p>清华大学 机械工程</p></td>
+            </tr>
+                   
+            <tr>
+                <td><h2 title="憨批">
+                    <p><strong>刘宏睿</strong></p></h2>
+                    <p>武汉大学 生物科学</p></td>
+
+                <td><h2 title="巨巨巨">
+                        <p><strong>霍梓林</strong></p></h2>  
+                        <p>中国科学院大学 数学</p></td>
+
+                <td><h2 title="色马">
+                        <p><strong>马源</strong></p></h2>
+                        <p>武汉大学 智能制造</p></td>
+            </tr>
+                         
+        </table>
+        <table class="function">
+            <tr>
+            <td>
+                <div class="TRJTechnology">
+                <h2>童瑞骏の技术</h2>
+                    请联系TRJ进行技术咨询
+                </div>
+            </td>
+            <td>
+                <div class="Study">
+                <h2>学习资料</h2>
+                再说再说
+                </div>
+            </td></tr>
+        </table>
     </main>
-    <aside role="ASIDE">
-        <small>二中 三班 六人小分队</small>
-    </aside>
+
     <footer>
         <p><small>&copy;版权所属：次黄嘌呤</small></p>
     </footer>
-</body>
 
+    <script src="jump.js"></script>
+</body>
+</center>
 </html>
